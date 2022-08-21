@@ -1,0 +1,25 @@
+@import '../main.scss';
+
+.side{
+    height: 100vh;
+    &__logo{
+        font-size: 24px;
+        text-align: center;
+        padding: 20px 0px;
+    }
+    &__bot{
+        padding: 20px;
+    }
+    &__list{
+        display: flex;
+        flex-direction: column;
+        a{
+            display: block;
+            padding: 5px 0px;
+            font-weight: 500;
+            &.router-link-exact-active{
+                color: var(--el-color-primary);
+            }
+        }
+    }
+}

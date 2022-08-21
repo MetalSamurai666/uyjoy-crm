@@ -1,0 +1,35 @@
+@import 'var.scss';
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+li{
+    list-style-type: none;
+}
+button{
+    border: 0;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: $primary-text;
+}
+
+#app{
+    font-size: 16px;
+    color: $primary-text;
+}
+
+.el-header{
+    border-bottom: 1px solid $base-border;
+}
+.el-aside{
+    border-right: 1px solid $base-border;
+}
